@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPlatform - Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-book-open"></i>
+                <h1>EduPlatform</h1>
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="courses.html" class="nav-link">Courses</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="auth.html" class="nav-link">Login</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Learn Without Limits</h2>
+                <p>A comprehensive web-based platform designed to deliver flexible and interactive online education. Access
+                    courses anywhere, anytime, and track your progress seamlessly.</p>
+                <div class="hero-buttons">
+                    <a href="courses.html" class="btn btn-primary btn-large">
+                        <i class="fas fa-graduation-cap"></i>
+                        Explore Courses
+                    </a>
+                    <a href="auth.html" class="btn btn-secondary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Sign Up Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Action Banner -->
+    <section class="quick-action-banner">
+        <div class="container">
+            <div class="action-cards">
+                <div class="action-card primary-action">
+                    <div class="action-icon">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <div class="action-content">
+                        <h3>Start Learning Today</h3>
+                        <p>Join thousands of students already advancing their careers</p>
+                        <a href="auth.html" class="btn btn-highlight">
+                            <i class="fas fa-user-plus"></i>
+                            Sign Up Free
+                        </a>
+                    </div>
+                    <div class="action-badge">Most Popular</div>
+                </div>
+                
+                <div class="action-card secondary-action">
+                    <div class="action-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="action-content">
+                        <h3>Browse Our Courses</h3>
+                        <p>Discover 100+ courses in technology, business, and design</p>
+                        <a href="courses.html" class="btn btn-outline-highlight">
+                            <i class="fas fa-search"></i>
+                            Explore Courses
+                        </a>
+                    </div>
+                    <div class="course-count">100+ Courses</div>
+                </div>
+            </div>
+            
+            <div class="quick-stats">
+                <div class="stat-highlight">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">Active Students</div>
+                </div>
+                <div class="stat-highlight">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Expert Instructors</div>
+                </div>
+                <div class="stat-highlight">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-highlight">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses Preview -->
+    <section class="featured-courses-preview">
+        <div class="container">
+            <div class="section-header">
+                <h3>Popular Courses</h3>
+                <p>Start with our most popular courses and advance your skills today</p>
+                <a href="courses.html" class="btn btn-primary">View All Courses</a>
+            </div>
+            
+            <div class="featured-courses-grid">
+                <div class="featured-course-card">
+                    <div class="course-image-small">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop" alt="Web Development">
+                        <div class="course-badge">Bestseller</div>
+                    </div>
+                    <div class="course-info-small">
+                        <h4>Full Stack Web Development</h4>
+                        <p class="course-price-small">$299</p>
+                        <div class="course-rating-small">
+                            <i class="fas fa-star"></i>
+                            <span>4.8 (342 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-course-card">
+                    <div class="course-image-small">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=200&fit=crop" alt="Data Science">
+                        <div class="course-badge">New</div>
+                    </div>
+                    <div class="course-info-small">
+                        <h4>Data Science with Python</h4>
+                        <p class="course-price-small">$349</p>
+                        <div class="course-rating-small">
+                            <i class="fas fa-star"></i>
+                            <span>4.9 (267 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-course-card">
+                    <div class="course-image-small">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=300&h=200&fit=crop" alt="UI/UX Design">
+                        <div class="course-badge">Popular</div>
+                    </div>
+                    <div class="course-info-small">
+                        <h4>UI/UX Design Principles</h4>
+                        <p class="course-price-small">$279</p>
+                        <div class="course-rating-small">
+                            <i class="fas fa-star"></i>
+                            <span>4.7 (298 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h3>Platform Features</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-video"></i>
+                    <h4>Live Virtual Classes</h4>
+                    <p>Interactive live sessions with instructors and real-time collaboration tools.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Progress Tracking</h4>
+                    <p>Monitor your learning journey with detailed analytics and achievement badges.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h4>Discussion Channels</h4>
+                    <p>Engage with peers and instructors through dedicated discussion forums.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bell"></i>
+                    <h4>Smart Notifications</h4>
+                    <p>Stay updated with course announcements, deadlines, and important updates.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h4>Secure Payments</h4>
+                    <p>Safe and secure payment gateways for enrolling in premium courses.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Multi-Device Access</h4>
+                    <p>Access your courses seamlessly across desktop, tablet, and mobile devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Leaders Section -->
+    <section class="team-leaders">
+        <div class="container">
+            <h3>Meet Our Leadership Team</h3>
+            <p class="section-subtitle">Get to know the passionate leaders driving innovation in online education</p>
+            
+            <div class="leaders-grid">
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <div class="leader-avatar">
+                            <div class="avatar-circle">SB</div>
+                            <div class="status-badge">Team Leader</div>
+                        </div>
+                    </div>
+                    <div class="leader-content">
+                        <h4>Shreshta Brijesh</h4>
+                        <p class="leader-title">Team Leader & Project Manager</p>
+                        <p class="leader-description">
+                            Leading our development team with expertise in project management and strategic planning. 
+                            Shreshta ensures seamless coordination and delivery of high-quality educational solutions.
+                        </p>
+                        
+                        <div class="leader-skills">
+                            <span class="skill-badge">Project Management</span>
+                            <span class="skill-badge">Team Leadership</span>
+                            <span class="skill-badge">Strategic Planning</span>
+                            <span class="skill-badge">Agile Methodology</span>
+                        </div>
+                        
+                        <div class="leader-contact">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:shreshta.brijesh@gmail.com">shreshta.brijesh@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+919961270451">+91 9961270451</a>
+                            </div>
+                        </div>
+                        
+                        <div class="leader-actions">
+                            <a href="mailto:shreshta.brijesh@gmail.com" class="btn btn-primary btn-sm">
+                                <i class="fas fa-envelope"></i> Contact
+                            </a>
+                            <a href="about.html" class="btn btn-outline btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <div class="leader-avatar">
+                            <div class="avatar-circle">GD</div>
+                            <div class="status-badge">Tech Lead</div>
+                        </div>
+                    </div>
+                    <div class="leader-content">
+                        <h4>Gaurav Bharat Deore</h4>
+                        <p class="leader-title">Senior Developer & Technical Lead</p>
+                        <p class="leader-description">
+                            Our technical backbone, specializing in backend development and system architecture. 
+                            Gaurav brings robust technical solutions and ensures platform scalability and performance.
+                        </p>
+                        
+                        <div class="leader-skills">
+                            <span class="skill-badge">Backend Development</span>
+                            <span class="skill-badge">Database Design</span>
+                            <span class="skill-badge">API Development</span>
+                            <span class="skill-badge">Node.js</span>
+                        </div>
+                        
+                        <div class="leader-contact">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:bharatdeore7813@gmail.com">bharatdeore7813@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+919373446328">+91 9373446328</a>
+                            </div>
+                        </div>
+                        
+                        <div class="leader-actions">
+                            <a href="mailto:bharatdeore7813@gmail.com" class="btn btn-primary btn-sm">
+                                <i class="fas fa-envelope"></i> Contact
+                            </a>
+                            <a href="about.html" class="btn btn-outline btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="team-stats">
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Available</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">99%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h3>Ready to Transform Your Career?</h3>
+                <p>Join thousands of learners who have already advanced their skills and achieved their goals with our platform.</p>
+                <div class="cta-buttons-large">
+                    <a href="auth.html" class="btn btn-cta-primary">
+                        <i class="fas fa-rocket"></i>
+                        Start Learning Today
+                        <span class="btn-subtitle">Free 7-day trial</span>
+                    </a>
+                    <a href="courses.html" class="btn btn-cta-secondary">
+                        <i class="fas fa-book-open"></i>
+                        Browse Courses
+                        <span class="btn-subtitle">100+ courses available</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-book-open"></i>
+                        <span>EduPlatform</span>
+                    </div>
+                    <p>Empowering learners worldwide with flexible, interactive online education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Platform</h4>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="auth.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduPlatform. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
